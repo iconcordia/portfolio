@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "GMUportfolio",
+    "title": "Portfolio",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\njkjkjkjkjkj"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "stat515.html",
+    "href": "stat515.html",
+    "title": "Mid Term Project",
+    "section": "",
+    "text": "This projects aims to redesign bad graphs"
+  },
+  {
+    "objectID": "stat515.html#air-quality",
+    "href": "stat515.html#air-quality",
+    "title": "Mid Term Project",
+    "section": "Air Quality",
+    "text": "Air Quality\nFigure 1 further explores the impact of temperature on ozone level.\n\n\nCode\nknitr::include_graphics(\"img/Original.jpg\")\n\n\n\n\n\n\n\nCode\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\n\nFigure 1: Temperature and ozone level."
+  },
+  {
+    "objectID": "stat515.html#project-overview",
+    "href": "stat515.html#project-overview",
+    "title": "Mid Term Project",
+    "section": "",
+    "text": "This projects aims to redesign bad graphs"
   }
 ]
