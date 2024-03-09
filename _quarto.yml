@@ -2,16 +2,21 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "GMUportfolio"
+  title: "Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: "Projects"
+        menu:
+          - stat515.qmd
+      
 
 format:
   html:
-    theme: cosmo
+    theme: portfolio
+    mainfont: arial
+    fontsize: 1.5rem
     css: styles.css
     toc: true
 
